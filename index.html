@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Store</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+    <nav class="nav__container container-fluid trigger-menu-wrapper">
+      <div class="container">
+        <div class="row d-flex flex-row">
+          <a href="#" class="navbar-brand logo col">josh</a>
+          <a href="#" class="col-4 visible-md-down">menu</a> 
+          <a href="#" class="col visible-lg-up">shop all</a> 
+          <div class="col nav__right d-flex flex-row align-items-center">
+            <a href="#" class="col visible-lg-up">about</a>
+            <a href="#" class="col visible-lg-up">account</a> 
+            <div class="shopping__cart col">
+              <a href="#" class="cart">bag <span id="stock">1</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav__bg"></div>
+    </header>
+    <section class="hero__section container-fluid">
+      <div class="container featured__description">
+        <div class="row">
+          <div class="col-md-6 col-sm py-4">
+            <div class="title__and__price col-sm-9">
+              <h2 class="hero__product--title">oshe earring</h2>
+              <h2>$300 usd</h2>
+            </div>
+            <p class="desc col-sm py-2">Custom cut quartz rock crystal hoop earrings with solid gold or silver end caps and hinge closure. Available in White, Yellow or Rose 14k Gold and Silver. Sold as pair.</p>
+          </div>
+        </div>
+        <div class="row featured__variants pt-2">
+          <p class="variant__subtitle col-md-8">Select Color</p>
+          <div class="variants__container col-md-6">
+            <div class="row">
+              <div class="product__variant col d-flex flex-row justify-content-center">
+                <div class="variant__button col-2">
+                  <label class="variant__label variant__label--1">
+                  <span class="checkmark"></span>
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                  </label>
+                </div>
+                <p class="variant__title col-6">White</p>
+              </div>
+              <div class="product__variant col d-flex flex-row">
+                <div class="variant__button col-2">
+                  <label class="variant__label variant__label--2">
+                  <span class="checkmark"></span>
+                  <input type="radio" name="options" id="option2" autocomplete="off" >
+                  </label>
+                </div>
+                <p class="variant__title col-6">Yellow</p>
+              </div>
+              <div class="product__variant col d-flex flex-row">
+                <div class="variant__button col-2">
+                  <label class="variant__label variant__label--3">
+                  <span class="checkmark"></span>
+                  <input type="radio" name="options" id="option3" autocomplete="off">
+                  </label>
+                </div>
+                <p class="variant__title col-6">Rose Gold</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row CTA__row CTA__row--lg pt-4">
+          <div class="cartCTA__container"><button class="addToCart">add ( 1 pair ) to bag</button></div>
+        </div>
+      </div>
+      
+      <div class="scroll__container container">
+        <div class="row d-flex flex-row">
+          <div class="anchor__container offset-11 col-sm-1"><a href="#content" class="scroll__btn"><img src="assets/img/Anchor_Down.png" alt="next-section"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-fluid CTA__row--mobile">
+            <div class="row CTA__row">
+                    <div class="cartCTA__container"><button class="addToCart">add ( 1 pair ) to bag</button></div>
+            </div>
+    </div>
+    <section class="content__section container" id="content">
+      <div class="row">
+        <div class="carousel__section carousel__container col-md-4">
+          <div class="carousel">
+            <div id="carousel" class="carousel slide lazy" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" style="max-width: 100%; height: auto">
+                <div class="carousel-item active">
+                  <img class="d-block w-100"  src="assets/img/3x4Small.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"  src="assets/img/earring-thumb-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/img/earring-thumb-3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection__description">The collection pairs quartz with gold, exploring the limits of shape within our signature lens of timelessness and wearability. The resulting collection feels equal parts modern statement and relics that could belong to any era.</div>
+        </div>
+        <div class="carousel__section static__container col-sm-12 col-md-8 lazy__img">
+          <div class="static__img">
+            <img class="lazy" data-src="assets/img/4x3Large.jpg"  />
+            <div class="lazy__bg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid video__container">
+    	<div class="row d-flex flex-column justify-content-center">
+    		<a href="#" class="play__button">play video</a>
+    	</div>
+    </section>
+    <footer class="container" >
+      <div class="footer__info row d-flex flex-row">
+        <a href="#" class="copyright col-sm-12 col-md-7">copyright josh.com</a>
+        <div class="footer__menu col-md-5">
+          <ul class="social__list row d-flex flex-row">
+            <li class="col">social media</li>
+            <li class="col">terms</li>
+            <li class="col">faq</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
